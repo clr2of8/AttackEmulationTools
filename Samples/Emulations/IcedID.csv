@@ -1,0 +1,8 @@
+Order,Technique,TestName,auto_generated_guid,supported_platforms,TimeoutSeconds,InputArgs,AtomicsFolder,enabled,notes
+1,T1553.005,Mount an ISO image and run executable from the ISO,42f22b00-0242-4afc-a61b-0da05041f9cc,windows,120,"""@{""""path_of_iso""""=""""PathToAtomicsFolder\T1553.005\bin\FeelTheBurn.iso""""}""",Public,TRUE,
+2,T1016,System Network Configuration Discovery on Windows,970ab6a1-0157-4f3f-9a73-ec4166754b23,windows,120,,Public,TRUE,
+3,T1518.001,Security Software Discovery - AV Discovery via WMI,1553252f-14ea-4d3b-8a08-d7a4211aa945,windows,120,,Public,TRUE,
+4,T1082,System Information Discovery,66703791-c902-4560-8770-42b8a91f7667,windows,120,,Public,TRUE,
+5,T1482,Windows - Discover domain trusts with nltest,2e22641d-0498-48d2-b9ff-c71e496ccdbe,windows,120,,Public,TRUE,
+6,T1053.005,Scheduled Task Startup Script,fec27f65-db86-4c2d-b66c-61945aee87c2,windows,120,,Public,TRUE,
+7,T1055.012,Process Hollowing using PowerShell,562427b4-39ef-4e8c-af88-463a78e70b9c,windows,120,"""@{""""hollow_binary_path""""=""""C:\Windows\System32\cmd.exe"""";""""parent_process_name""""=""""explorer"""";""""sponsor_binary_path""""=""""C:\Windows\System32\notepad.exe"""";""""spawnto_process_name""""=""""notepad"""";}""",Public,TRUE,
