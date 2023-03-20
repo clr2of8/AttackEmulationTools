@@ -21,7 +21,7 @@ function Get-ClassFiles {
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     Invoke-WebRequest $url -OutFile $path
     expand-archive -LiteralPath $path -DestinationPath "$AttEmuToolsPath" -Force:$Force
-    $mainFolderUnzipped = Join-Path  $AttEmuToolsPath "AttEmuTools-main"
+    $mainFolderUnzipped = Join-Path  $AttEmuToolsPath "AttackEmulationTools-main"
     Get-ChildItem -Path $mainFolderUnzipped -Recurse | Move-Item -Destination $AttEmuToolsPath
     Remove-Item $mainFolderUnzipped -Recurse -Force
     Remove-Item $path -Recurse
