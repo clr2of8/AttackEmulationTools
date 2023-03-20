@@ -12,13 +12,28 @@ Function Install-Application($Url, $flags) {
     Until (!$ProcessesFound)
 }
 
+function Get-ClassFiles {
+    $AttEmuToolsPath = "$env:USERPROFILE\AttEmuTools"
+    if (Test-Path $AttEmuToolsPath) { Remove-Item -Path $AttEmuToolscPath -Recurse -Force -ErrorAction Stop | Out-Null }
+    New-Item -ItemType directory -Path $AttEmuToolsPath | Out-Null
+    $url = "https://github.com/clr2of8/AttackEmulationTools/archive/refs/heads/main.zip"
+    $path = Join-Path $AttEmuToolsPath "$main.zip"
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+    Invoke-WebRequest $url -OutFile $path
+    expand-archive -LiteralPath $path -DestinationPath "$AttEmuToolsPath" -Force:$Force
+    $mainFolderUnzipped = Join-Path  $AttEmuToolsPath "AttEmuTools-main"
+    Get-ChildItem -Path $mainFolderUnzipped -Recurse | Move-Item -Destination $AttEmuToolsPath
+    Remove-Item $mainFolderUnzipped -Recurse -Force
+    Remove-Item $path -Recurse
+}
+
 function Set-Bookmarks {
     $bookmarksFile = "C:\Users\art\AppData\Local\Google\Chrome\User Data\Default\Bookmarks"
     $calderaIP = "art-vm-0"
     if (-Not (Test-Path $bookmarksFile)) {
-        Invoke-WebRequest "https://raw.githubusercontent.com/clr2of8/dc8-deployment-PUBLIC/master/Bookmarks" -OutFile "C:\Users\art\AppData\Local\Google\Chrome\User Data\Default\Bookmarks"
+        Invoke-WebRequest "https://raw.githubusercontent.com/clr2of8/AttackEmulationTools/master/Tools/Bookmarks" -OutFile "C:\Users\art\AppData\Local\Google\Chrome\User Data\Default\Bookmarks"
     }
-    Invoke-WebRequest "https://raw.githubusercontent.com/clr2of8/dc8-deployment-PUBLIC/master/Bookmarks" -OutFile "$env:Temp\Bookmarks"
+    Invoke-WebRequest "https://raw.githubusercontent.com/clr2of8/AttackEmulationTools/master/Tools/Bookmarks" -OutFile "$env:Temp\Bookmarks"
 
     $newJsonData = Get-Content -Raw -Path "$env:Temp\Bookmarks" | ConvertFrom-Json
     
@@ -58,7 +73,7 @@ function Set-CalderaIP {
     $calderaIP = "art-vm-0"
     if ($null -eq $calderaIP) { return }
     $rdpFile = "c:\Users\art\Desktop\CALDERA.rdp"
-    Invoke-WebRequest "https://raw.githubusercontent.com/clr2of8/dc8-deployment-PUBLIC/master/windows-client/CALDERA.rdp" -OutFile $rdpFile
+    Invoke-WebRequest "https://raw.githubusercontent.com/clr2of8/AttackEmulationTools/master/Tools/CALDERA.rdp" -OutFile $rdpFile
 
     (Get-Content -raw $rdpFile) | ForEach-Object {
         $_ -replace '(full address:s:)(.*)', "full address:s:$calderaIP" |
@@ -105,6 +120,9 @@ Copy-Item 'C:\Users\art\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Wi
 Copy-Item 'C:\Users\art\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk' "C:\Users\art\Desktop\Command Prompt.lnk"
 Copy-Item 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Notepad++.lnk' "C:\Users\art\Desktop\Notepad++.lnk"
 Set-CalderaIP # add CALDERA.rdp shorcut to desktop
+
+Write-Host "Writing class files to $env:USERPROFILE\AttEmuTools" -ForegroundColor Cyan
+Get-ClassFiles 
 
 # Turn off Automatic Sample Submission in Windows Defender
 Write-Host "Turning off Automatic Sample Submission" -ForegroundColor Cyan
