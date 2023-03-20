@@ -1,5 +1,5 @@
 {
-   "checksum": "a7c3a1dd1f2e6b669277a0838aeecc52",
+   "checksum": "95c7bf8fe65e4a10509574ee565b0ae7",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -194,7 +194,7 @@
                "url": "https://github.com/redcanaryco/atomic-red-team"
             }, {
                "date_added": "0",
-               "date_last_used": "13323478940938211",
+               "date_last_used": "13323823191422462",
                "guid": "9062a64b-55cb-414e-a734-a520aace2c68",
                "id": "10",
                "name": "Atomics Folder",
@@ -245,7 +245,7 @@
                "url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
             }, {
                "date_added": "13323630419729742",
-               "date_last_used": "0",
+               "date_last_used": "13323822876030583",
                "guid": "6d40c8c9-ffd2-4caa-baf6-fcf86a52b112",
                "id": "81",
                "name": "Explore Atomic Red Team",
@@ -460,6 +460,14 @@
                "type": "url",
                "url": "https://www.antisyphontraining.com/on-demand-course-catalog/"
             }, {
+               "date_added": "13323827002641437",
+               "date_last_used": "0",
+               "guid": "3282b98a-490f-4ac3-b469-68177522da1e",
+               "id": "94",
+               "name": "Class Files",
+               "type": "url",
+               "url": "https://github.com/clr2of8/AttackEmulationTools"
+            }, {
                "date_added": "13323562829815919",
                "date_last_used": "0",
                "guid": "a3fc4335-8f94-4358-8f2d-6796b31ef810",
@@ -469,7 +477,7 @@
                "url": "https://github.com/mvelazc0/PurpleSharp"
             }, {
                "date_added": "13323562846166683",
-               "date_last_used": "13323818830330402",
+               "date_last_used": "13323818991737686",
                "guid": "9508566d-566a-423d-8611-526645a4402e",
                "id": "67",
                "name": "Prelude Detect",
@@ -569,7 +577,7 @@
             } ],
             "date_added": "13323562824562407",
             "date_last_used": "0",
-            "date_modified": "13323563416227696",
+            "date_modified": "13323827010717771",
             "guid": "d0988577-ee13-40a5-bb37-b7becc2151af",
             "id": "65",
             "name": "MISC",
