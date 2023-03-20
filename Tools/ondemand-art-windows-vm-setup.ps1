@@ -14,7 +14,7 @@ Function Install-Application($Url, $flags) {
 
 function Get-ClassFiles {
     $AttEmuToolsPath = "$env:USERPROFILE\AttEmuTools"
-    if (Test-Path $AttEmuToolsPath) { Remove-Item -Path $AttEmuToolscPath -Recurse -Force -ErrorAction Stop | Out-Null }
+    if (Test-Path $AttEmuToolsPath) { Remove-Item -Path $AttEmuToolsPath -Recurse -Force -ErrorAction Stop | Out-Null }
     New-Item -ItemType directory -Path $AttEmuToolsPath | Out-Null
     $url = "https://github.com/clr2of8/AttackEmulationTools/archive/refs/heads/main.zip"
     $path = Join-Path $AttEmuToolsPath "$main.zip"
@@ -93,7 +93,7 @@ if (-not (Test-Path C:\Users\art)) {
 }
 
 Remove-LocalUser -Name "IEUser" -ErrorAction Ignore
-Remove-Item 'C:\Users\art\Desktop\Microsoft Edge.lnk'
+Remove-Item 'C:\Users\art\Desktop\Microsoft Edge.lnk' -ErrorAction Ignore
 
 # install Chrome (must be admin)
 $property = Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe' -ErrorAction Ignore
