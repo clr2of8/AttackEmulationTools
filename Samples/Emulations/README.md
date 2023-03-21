@@ -16,4 +16,4 @@ Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\P
 Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\Phosphorus.csv -Cleanup
 ```
 
-<span style="color:red;">Note:</span> the CSV files don't render the new line (carriage return) values that are required to separate multiple input arguments. You need to view the "Raw" file in GitHub to see the exact format required.
+<p style="color:red;">Note:</p> the CSV files don't render the new line (carriage return) values that are required to separate multiple input arguments. You need to view the "Raw" file in GitHub to see the exact format required.
