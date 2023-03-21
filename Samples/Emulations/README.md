@@ -6,16 +6,16 @@ These CSV Files can be ingested by the [Invoke-AtomicRedTeam](https://github.com
 
 ```powershell
 # This will list the name of each enabled test on the schedule (IcedID.csv in the current directory)
-Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\Phosphorus.csv -ShowDetailsBrief
+Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\IcedID.csv -ShowDetailsBrief
 
 # This will run the get-prereq commands for each enabled test on the schedule
-Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\Phosphorus.csv -GetPrereqs
+Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\IcedID.csv -GetPrereqs
 
 # This will run each of the atomic tests on the schedule
-Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\Phosphorus.csv
+Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\IcedID.csv
 
 # This will run each the cleanup commands for each of the atomic tests on the schedule
-Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\Phosphorus.csv -Cleanup
+Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\IcedID.csv -Cleanup
 ```
 ![image](https://user-images.githubusercontent.com/22311332/226513002-41bc17bd-b77d-467c-956b-77ee65c9894c.png)
 
