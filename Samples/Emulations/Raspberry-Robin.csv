@@ -1,5 +1,6 @@
 Order,Technique,TestName,auto_generated_guid,supported_platforms,TimeoutSeconds,InputArgs,AtomicsFolder,enabled,notes
-1,T1059.003,Command Prompt read contents from CMD file and execute,df81db1b-066c-4802-9bc8-b6d030c3ba8e,windows,120,"""@{""""input_file""""=""""C:\Users\Public\t1059.003_cmd.cmd""""}""",Public,TRUE,Emulation converted from https://github.com/Atomics-on-A-Friday/Emulation-Tools
-2,T1218.007,Msiexec.exe - Execute Remote MSI file,44a4bedf-ffe3-452e-bee4-6925ab125662,windows,120,"""@{""""msi_payload""""=""""https://github.com/redcanaryco/atomic-red-team/raw/master/atomics/T1218.007/bin/T1218.007_JScript.msi"""";""""msi_exe""""=""""c:\windows\system32\msiexec.exe""""}""",Public,TRUE,
+1,T1059.003,Command Prompt read contents from CMD file and execute,df81db1b-066c-4802-9bc8-b6d030c3ba8e,windows,120,"input_file=C:\\Users\\Public\\t1059.003_cmd.cmd",Public,TRUE,Emulation converted from https://github.com/Atomics-on-A-Friday/Emulation-Tools
+2,T1218.007,Msiexec.exe - Execute Remote MSI file,44a4bedf-ffe3-452e-bee4-6925ab125662,windows,120,"msi_payload=https://github.com/redcanaryco/atomic-red-team/raw/master/atomics/T1218.007/bin/T1218.007_JScript.msi
+msi_exe=c:\\windows\\system32\\msiexec.exe",Public,TRUE,
 3,T1218.008,Odbcconf.exe - Execute Arbitrary DLL,2430498b-06c0-4b92-a448-8ad263c388e2,windows,120,,Public,TRUE,
 4,T1218.001,Compiled HTML Help Local Payload,5cb87818-0d7c-4469-b7ef-9224107aebe8,windows,120,,Public,TRUE,
