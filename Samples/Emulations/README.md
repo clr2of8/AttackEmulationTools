@@ -25,3 +25,4 @@ Note: The CSV files don't render the new line (carriage return) values that are 
 * You can set a custom timeout value with the TimeoutSeconds column.
 * The examples show how to pass custom InputArgs to the atomic.
 * Notes are only for your reference and not used programmatically.
+* Backslashes `\` must be escaped with a second backslash `\\`, for example in Windows file paths `C:\\Windows\\System32\\cmd.exe`
