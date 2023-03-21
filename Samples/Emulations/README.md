@@ -17,6 +17,6 @@ Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\P
 # This will run each the cleanup commands for each of the atomic tests on the schedule
 Invoke-AtomicRunner -listOfAtomics C:\Users\art\AttEmuTools\Samples\Emulations\Phosphorus.csv -Cleanup
 ```
-![image](https://user-images.githubusercontent.com/22311332/226512777-9f7e4432-d2ac-4b20-8b6b-0e1d14bc1f48.png)
+![image](https://user-images.githubusercontent.com/22311332/226513002-41bc17bd-b77d-467c-956b-77ee65c9894c.png)
 
 Note: The CSV files don't render the new line (carriage return) values that are required to separate multiple input arguments. You need to view the "Raw" file in GitHub to see the exact format required.
