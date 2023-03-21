@@ -1,4 +1,6 @@
-These Emulations are converted from that ["Atomics on a Friday" project](https://github.com/Atomics-on-A-Friday/Emulation-Tools). Original author is @Burning_PM.
+These Emulations are converted from the ["Atomics on a Friday" project](https://github.com/Atomics-on-A-Friday/Emulation-Tools).
+
+Original author is @Burning_PM.
 
 These CSV Files can be ingested by the [Invoke-AtomicRedTeam](https://github.com/redcanaryco/invoke-atomicredteam) Execution Framework as follows:
 
