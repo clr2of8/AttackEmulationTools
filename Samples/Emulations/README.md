@@ -23,6 +23,7 @@ Note: The CSV files don't render the new line (carriage return) values that are 
 
 * The Order column is only used for your convenience if you want to sort the schedule in Excel. It is not used programmatically.
 * You can set a custom timeout value with the TimeoutSeconds column.
-* The examples show how to pass custom InputArgs to the atomic.
 * Notes are only for your reference and not used programmatically.
-* Backslashes `\` must be escaped with a second backslash `\\`, for example in Windows file paths `C:\\Windows\\System32\\cmd.exe`
+* The examples show how to pass custom InputArgs to the atomic.
+* InputArgs are defined as Key=Value pairs, one Key=Value pair per line.
+* Backslashes in InputArgs `\` must be escaped with a second backslash `\\`, for example in Windows file paths `C:\\Windows\\System32\\cmd.exe`
