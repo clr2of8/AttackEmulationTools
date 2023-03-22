@@ -1,7 +1,7 @@
 Order,Technique,TestName,auto_generated_guid,supported_platforms,TimeoutSeconds,InputArgs,AtomicsFolder,enabled,notes
 1,T1105,Download a file using wscript,97116a3f-efac-4b26-8336-b9cb18c45188,windows,120,,Public,TRUE,Emulation converted from https://github.com/Atomics-on-A-Friday/Emulation-Tools
 2,T1033,System Owner/User Discovery,4c4959bf-addf-4b4a-be86-8d09cc1857aa,windows,120,"computer_name=localhost",Public,TRUE,
-3,T1033,System Discovery - SocGholish whoami,3d257a03-eb80-41c5-b744-bb37ac7f65c7,windows,120,"output_path=env:Temp",Public,TRUE,
+3,T1033,System Discovery - SocGholish whoami,3d257a03-eb80-41c5-b744-bb37ac7f65c7,windows,120,"output_path=$env:Temp",Public,TRUE,
 4,T1482,Windows - Discover domain trusts with nltest,2e22641d-0498-48d2-b9ff-c71e496ccdbe,windows,120,,Public,TRUE,
 5,T1218.011,Rundll32 with Ordinal Value,9fd5a74b-ba89-482a-8a3e-a5feaa3697b0,windows,120,"input_url=https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.010/bin/AllTheThingsx64.dll
 input_file=C:\\ProgramData\\nopdmv.dll",Public,TRUE,
