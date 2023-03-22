@@ -11,5 +11,6 @@ remote_desktop_users_group=Remote Desktop Users
 remove_rdp_access_during_cleanup=1",Public,TRUE,
 5,T1562.001,Tamper with Windows Defender ATP PowerShell,6b8df440-51ec-4d53-bf83-899591c9b5d7,windows,120,,Public,TRUE,
 6,T1562.004,Allow SMB and RDP on Microsoft Defender Firewall,d9841bf8-f161-4c73-81e9-fd773a5ff8c1,windows,120,,Public,TRUE,
-7,T1003.001,Dump LSASS.exe Memory using comsvcs.dll,2536dee2-12fb-459a-8c37-971844fa73be,windows,120,"input_file=env:TEMP\\lsass-comsvcs.dmp
-output_file=env:TEMP\\lsass.zip",Public,TRUE,
+7,T1003.001,Dump LSASS.exe Memory using comsvcs.dll,2536dee2-12fb-459a-8c37-971844fa73be,windows,120,,Public,TRUE,
+8,T1560,Compress Data for Exfiltration With PowerShell,41410c60-614d-4b9d-b66e-b0192dd9c597,windows,120,"input_file=$env:TEMP\\lsass-comsvcs.dmp
+output_file=$env:TEMP\\lsass.zip",Public,TRUE,
