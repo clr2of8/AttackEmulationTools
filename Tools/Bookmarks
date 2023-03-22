@@ -1,5 +1,5 @@
 {
-   "checksum": "95c7bf8fe65e4a10509574ee565b0ae7",
+   "checksum": "756bd5d33d8f87f6361bf08e75ac79f9",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -47,7 +47,7 @@
                "date_added": "13322455872856257",
                "date_last_used": "13323559950672282",
                "guid": "534d8661-a91c-4adb-90f6-10e8063edce1",
-               "id": "44",
+               "id": "8",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -59,7 +59,7 @@
                   "date_added": "13323560343743391",
                   "date_last_used": "0",
                   "guid": "46d41a81-f134-4aac-ad69-78d16d00b8d2",
-                  "id": "59",
+                  "id": "10",
                   "name": "ATT&CK Training and Certification - MITRE ATT&CK Defender (MAD)",
                   "type": "url",
                   "url": "https://mitre-engenuity.org/cybersecurity/mad/"
@@ -67,7 +67,7 @@
                   "date_added": "13323560139995786",
                   "date_last_used": "0",
                   "guid": "5d505844-c67a-40e3-b5dd-437d9f0bcdcc",
-                  "id": "53",
+                  "id": "11",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -78,7 +78,7 @@
                   "date_added": "13323560195506890",
                   "date_last_used": "0",
                   "guid": "16baf8c5-1059-47f6-b42b-55df7b38bda0",
-                  "id": "54",
+                  "id": "12",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -89,7 +89,7 @@
                   "date_added": "13323560216919926",
                   "date_last_used": "0",
                   "guid": "6a093420-e967-405b-acae-b159d8f45e3d",
-                  "id": "55",
+                  "id": "13",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -100,7 +100,7 @@
                   "date_added": "13323560236027398",
                   "date_last_used": "0",
                   "guid": "5d2353a3-02f8-4d08-bbc2-66aa85ac2ed2",
-                  "id": "56",
+                  "id": "14",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -111,7 +111,7 @@
                   "date_added": "13323560266674573",
                   "date_last_used": "0",
                   "guid": "038585c8-03dc-4822-b258-6e487273d3ca",
-                  "id": "57",
+                  "id": "15",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -122,7 +122,7 @@
                   "date_added": "13323560299378396",
                   "date_last_used": "0",
                   "guid": "f2ae29c0-ee20-4864-a382-22f0250f7c93",
-                  "id": "58",
+                  "id": "16",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -134,14 +134,14 @@
                "date_last_used": "0",
                "date_modified": "13323560350806165",
                "guid": "5aae1a90-aad3-420e-8c03-7509e2b5dbc8",
-               "id": "50",
+               "id": "9",
                "name": "MITRE ATT&CK™ Defender (MAD)",
                "type": "folder"
             }, {
                "date_added": "13323562995237896",
                "date_last_used": "0",
                "guid": "37cdce57-8f8f-4535-8c46-ac99d382070d",
-               "id": "70",
+               "id": "17",
                "name": "ATT&CK® Evaluations",
                "type": "url",
                "url": "https://attackevals.mitre-engenuity.org/"
@@ -149,7 +149,7 @@
                "date_added": "13323560089836954",
                "date_last_used": "0",
                "guid": "785ff8e4-37f7-469a-b415-dce2a719c33a",
-               "id": "52",
+               "id": "18",
                "name": "Adversary Emulation Library",
                "type": "url",
                "url": "https://github.com/center-for-threat-informed-defense/adversary_emulation_library"
@@ -157,7 +157,7 @@
                "date_added": "13323563270715900",
                "date_last_used": "0",
                "guid": "74e6e80c-3121-4cef-9026-52055645699c",
-               "id": "77",
+               "id": "19",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -168,7 +168,7 @@
                "date_added": "13323562555632296",
                "date_last_used": "0",
                "guid": "2b207b99-c930-4ccb-ad4c-93ffef7a157d",
-               "id": "63",
+               "id": "20",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -186,9 +186,9 @@
          }, {
             "children": [ {
                "date_added": "0",
-               "date_last_used": "13323455443450921",
+               "date_last_used": "13323920050887104",
                "guid": "43c024fc-bf2f-453e-b0dd-dddeeb2b14e8",
-               "id": "9",
+               "id": "22",
                "name": "Atomic Red Team GitHub",
                "type": "url",
                "url": "https://github.com/redcanaryco/atomic-red-team"
@@ -196,7 +196,7 @@
                "date_added": "0",
                "date_last_used": "13323823191422462",
                "guid": "9062a64b-55cb-414e-a734-a520aace2c68",
-               "id": "10",
+               "id": "23",
                "name": "Atomics Folder",
                "type": "url",
                "url": "https://github.com/redcanaryco/atomic-red-team/tree/master/atomics"
@@ -204,15 +204,15 @@
                "date_added": "0",
                "date_last_used": "13323453603283323",
                "guid": "6c47529e-ba0b-4e3d-b959-0d8d29d102b6",
-               "id": "11",
+               "id": "24",
                "name": "Invoke-AtomicRedTeam",
                "type": "url",
                "url": "https://github.com/redcanaryco/invoke-atomicredteam"
             }, {
                "date_added": "13236986263000000",
-               "date_last_used": "13323642894522129",
+               "date_last_used": "13323835479199654",
                "guid": "6e6d0a9d-c75c-461c-80d5-3b5f00778e78",
-               "id": "12",
+               "id": "25",
                "name": "Invoke-AtomicRedTeam Wiki",
                "type": "url",
                "url": "https://github.com/redcanaryco/invoke-atomicredteam/wiki"
@@ -220,7 +220,7 @@
                "date_added": "0",
                "date_last_used": "0",
                "guid": "fd87779b-f958-430a-9f8c-f1bcb9339ec3",
-               "id": "13",
+               "id": "26",
                "name": "Windows Atomics Index",
                "type": "url",
                "url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-CSV/windows-index.csv"
@@ -228,7 +228,7 @@
                "date_added": "13236976563000000",
                "date_last_used": "0",
                "guid": "29761808-6006-41a6-ad02-ea4fefb3c96c",
-               "id": "14",
+               "id": "27",
                "name": "ATT&CK Navigator Layers",
                "type": "url",
                "url": "https://github.com/redcanaryco/atomic-red-team/tree/master/atomics/Indexes/Attack-Navigator-Layers"
@@ -236,7 +236,7 @@
                "date_added": "13323562656724641",
                "date_last_used": "0",
                "guid": "53c09658-7aca-46e6-95f0-fc2055701194",
-               "id": "64",
+               "id": "28",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -247,7 +247,7 @@
                "date_added": "13323630419729742",
                "date_last_used": "13323822876030583",
                "guid": "6d40c8c9-ffd2-4caa-baf6-fcf86a52b112",
-               "id": "81",
+               "id": "29",
                "name": "Explore Atomic Red Team",
                "type": "url",
                "url": "https://atomicredteam.io/"
@@ -255,7 +255,7 @@
                "date_added": "13323630724841147",
                "date_last_used": "13323676262055861",
                "guid": "2983a370-3168-48c6-86f1-d195de104e04",
-               "id": "83",
+               "id": "30",
                "name": "Atomic Spotlights with Carrie Roberts",
                "type": "url",
                "url": "https://www.youtube.com/playlist?list=PL-4fuTjKox5en_SOd0teFlsk9co4StXnW"
@@ -263,7 +263,7 @@
                "date_added": "13323630576136282",
                "date_last_used": "0",
                "guid": "b024639b-523a-42aa-aab6-b94808d4c5db",
-               "id": "82",
+               "id": "31",
                "name": "Atomics on a Friday",
                "type": "url",
                "url": "https://www.youtube.com/@atomicsonafriday/videos"
@@ -271,7 +271,7 @@
                "date_added": "13323630768754097",
                "date_last_used": "13323631354805695",
                "guid": "95b2eb7d-44e0-45ab-b73d-4b63d8942de8",
-               "id": "84",
+               "id": "32",
                "name": "ATH Atomic Test Harnesses",
                "type": "url",
                "url": "https://github.com/redcanaryco/AtomicTestHarnesses"
@@ -279,7 +279,7 @@
                "date_added": "13323562470262528",
                "date_last_used": "0",
                "guid": "a34090e2-2fd7-4dc0-b50e-2aa1931f066c",
-               "id": "62",
+               "id": "33",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -291,7 +291,7 @@
             "date_last_used": "0",
             "date_modified": "13323630842545724",
             "guid": "c4143e9a-b18b-4299-b178-88c142477992",
-            "id": "8",
+            "id": "21",
             "name": "ART",
             "type": "folder"
          }, {
@@ -299,7 +299,7 @@
                "date_added": "13253332350982437",
                "date_last_used": "13321230311236841",
                "guid": "0d112d57-0c96-445b-a439-0add40d1dc5d",
-               "id": "21",
+               "id": "35",
                "name": "VECTR Server",
                "type": "url",
                "url": "https://art-vm-0:8081/"
@@ -307,7 +307,7 @@
                "date_added": "13253332372935674",
                "date_last_used": "0",
                "guid": "9cc76534-0742-4a76-9c69-febfeb3ebffe",
-               "id": "22",
+               "id": "36",
                "name": "VECTR | Overview",
                "type": "url",
                "url": "https://vectr.io/"
@@ -315,15 +315,23 @@
                "date_added": "13257706193220817",
                "date_last_used": "0",
                "guid": "d313edee-e5ae-44c3-aaf1-6a398f7ef0c7",
-               "id": "23",
+               "id": "37",
                "name": "How To Videos - VECTR Documentation",
                "type": "url",
                "url": "https://docs.vectr.io/How-To-Videos/"
             }, {
+               "date_added": "13323923024955152",
+               "date_last_used": "0",
+               "guid": "f91aeb1e-8c57-46a5-a387-4ae8e097a3c5",
+               "id": "69",
+               "name": "Threat Simulation Indexes",
+               "type": "url",
+               "url": "https://github.com/SecurityRiskAdvisors/indexes"
+            }, {
                "date_added": "13323562282451868",
                "date_last_used": "0",
                "guid": "86577cb4-f85c-4ed9-a1fc-573b9135032b",
-               "id": "61",
+               "id": "38",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -333,85 +341,17 @@
             } ],
             "date_added": "13253332232658187",
             "date_last_used": "0",
-            "date_modified": "13323562282451868",
+            "date_modified": "13323923029219890",
             "guid": "9f598c53-a28f-42c2-b384-b725bdd78abd",
-            "id": "20",
+            "id": "34",
             "name": "VECTR",
-            "type": "folder"
-         }, {
-            "children": [ {
-               "date_added": "13323802856399947",
-               "date_last_used": "13323812332351704",
-               "guid": "763353d8-9cd8-41e1-9888-b2bf989617b9",
-               "id": "86",
-               "name": "Prelude Operator – Purple Team Infrastructure",
-               "type": "url",
-               "url": "https://www.preludesecurity.com/products/operator"
-            }, {
-               "date_added": "13323802881745062",
-               "date_last_used": "13323816835201425",
-               "guid": "3bd31346-3e2a-424d-abf5-675ec7a818fa",
-               "id": "87",
-               "name": "Documentation",
-               "type": "url",
-               "url": "https://docs.preludesecurity.com/v1/docs"
-            }, {
-               "date_added": "13323802946173350",
-               "date_last_used": "13323817068172560",
-               "guid": "cad6fedf-60bf-45b2-9337-76f3a9baf71c",
-               "id": "88",
-               "name": "Prelude Attack Chains",
-               "type": "url",
-               "url": "https://chains.prelude.org/chains"
-            }, {
-               "date_added": "13323804813343674",
-               "date_last_used": "13323816749117535",
-               "guid": "c7b177de-14f0-465d-ace7-ff85679a5dcd",
-               "id": "89",
-               "name": "Community TTP Repository",
-               "type": "url",
-               "url": "https://github.com/preludeorg/community"
-            }, {
-               "date_added": "13323816769615243",
-               "date_last_used": "0",
-               "guid": "a64ebb21-6dd4-4915-b016-0e139c8ed7d5",
-               "id": "90",
-               "name": "Pneuma Agent Source Code",
-               "type": "url",
-               "url": "https://github.com/preludeorg/pneuma"
-            }, {
-               "date_added": "13323816802923954",
-               "date_last_used": "0",
-               "guid": "fce61b7b-a457-4557-a066-b277de2c544f",
-               "id": "91",
-               "name": "Operator Support",
-               "type": "url",
-               "url": "https://github.com/preludeorg/operator-support"
-            }, {
-               "date_added": "13323817184634268",
-               "date_last_used": "13323817203172313",
-               "guid": "44d343e8-c20a-4107-a95c-5a5db9db7b03",
-               "id": "92",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "Discord Invite",
-               "type": "url",
-               "url": "https://discord.com/invite/NWURE99JzE"
-            } ],
-            "date_added": "13323802850901324",
-            "date_last_used": "0",
-            "date_modified": "13323817184634268",
-            "guid": "f03a3005-3a76-4eec-b7c2-3a68a61437ad",
-            "id": "85",
-            "name": "Prelude Operator",
             "type": "folder"
          }, {
             "children": [ {
                "date_added": "13243046588104900",
                "date_last_used": "13323393828464242",
                "guid": "3f4c5238-96e6-42b4-8009-1c204fbc285b",
-               "id": "25",
+               "id": "48",
                "name": "CALDERA Server",
                "type": "url",
                "url": "http://art-vm-0:8888/"
@@ -419,7 +359,7 @@
                "date_added": "13246048193903489",
                "date_last_used": "13323562711407800",
                "guid": "8956a597-2cea-4112-aca0-d43ff55f07fd",
-               "id": "26",
+               "id": "49",
                "name": "CALDERA Documentation",
                "type": "url",
                "url": "https://caldera.readthedocs.io/en/latest/"
@@ -427,7 +367,7 @@
                "date_added": "13246084120371359",
                "date_last_used": "13323562715779041",
                "guid": "82fff951-20a2-481b-b73d-690d5a6e9932",
-               "id": "27",
+               "id": "50",
                "name": "CALDERA GitHub",
                "type": "url",
                "url": "https://github.com/mitre/caldera"
@@ -435,7 +375,7 @@
                "date_added": "13323562233147855",
                "date_last_used": "0",
                "guid": "73bf38ea-f6e9-41b0-8006-58511ecdf0ef",
-               "id": "60",
+               "id": "51",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -447,39 +387,107 @@
             "date_last_used": "0",
             "date_modified": "13323562233147855",
             "guid": "bb878d57-7053-478b-86be-66eadceef1da",
-            "id": "24",
+            "id": "47",
             "name": "CALDERA",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13323802856399947",
+               "date_last_used": "13323812332351704",
+               "guid": "763353d8-9cd8-41e1-9888-b2bf989617b9",
+               "id": "40",
+               "name": "Prelude Operator – Purple Team Infrastructure",
+               "type": "url",
+               "url": "https://www.preludesecurity.com/products/operator"
+            }, {
+               "date_added": "13323802881745062",
+               "date_last_used": "13323816835201425",
+               "guid": "3bd31346-3e2a-424d-abf5-675ec7a818fa",
+               "id": "41",
+               "name": "Documentation",
+               "type": "url",
+               "url": "https://docs.preludesecurity.com/v1/docs"
+            }, {
+               "date_added": "13323802946173350",
+               "date_last_used": "13323817068172560",
+               "guid": "cad6fedf-60bf-45b2-9337-76f3a9baf71c",
+               "id": "42",
+               "name": "Prelude Attack Chains",
+               "type": "url",
+               "url": "https://chains.prelude.org/chains"
+            }, {
+               "date_added": "13323804813343674",
+               "date_last_used": "13323816749117535",
+               "guid": "c7b177de-14f0-465d-ace7-ff85679a5dcd",
+               "id": "43",
+               "name": "Community TTP Repository",
+               "type": "url",
+               "url": "https://github.com/preludeorg/community"
+            }, {
+               "date_added": "13323816769615243",
+               "date_last_used": "0",
+               "guid": "a64ebb21-6dd4-4915-b016-0e139c8ed7d5",
+               "id": "44",
+               "name": "Pneuma Agent Source Code",
+               "type": "url",
+               "url": "https://github.com/preludeorg/pneuma"
+            }, {
+               "date_added": "13323816802923954",
+               "date_last_used": "0",
+               "guid": "fce61b7b-a457-4557-a066-b277de2c544f",
+               "id": "45",
+               "name": "Operator Support",
+               "type": "url",
+               "url": "https://github.com/preludeorg/operator-support"
+            }, {
+               "date_added": "13323817184634268",
+               "date_last_used": "13323817203172313",
+               "guid": "44d343e8-c20a-4107-a95c-5a5db9db7b03",
+               "id": "46",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Discord Invite",
+               "type": "url",
+               "url": "https://discord.com/invite/NWURE99JzE"
+            } ],
+            "date_added": "13323802850901324",
+            "date_last_used": "0",
+            "date_modified": "13323817184634268",
+            "guid": "f03a3005-3a76-4eec-b7c2-3a68a61437ad",
+            "id": "39",
+            "name": "Prelude Operator",
             "type": "folder"
          }, {
             "children": [ {
                "date_added": "13323563395246450",
                "date_last_used": "0",
                "guid": "d8c6133a-e28c-46b4-a951-e48cb09a250e",
-               "id": "79",
+               "id": "53",
                "name": "Antisyphon Training",
                "type": "url",
                "url": "https://www.antisyphontraining.com/on-demand-course-catalog/"
             }, {
                "date_added": "13323827002641437",
-               "date_last_used": "0",
+               "date_last_used": "13323919213433200",
                "guid": "3282b98a-490f-4ac3-b469-68177522da1e",
-               "id": "94",
+               "id": "54",
                "name": "Class Files",
                "type": "url",
                "url": "https://github.com/clr2of8/AttackEmulationTools"
             }, {
-               "date_added": "13323562829815919",
+               "date_added": "13323923077644331",
                "date_last_used": "0",
-               "guid": "a3fc4335-8f94-4358-8f2d-6796b31ef810",
-               "id": "66",
-               "name": "PurpleSharp",
+               "guid": "4d24669c-7994-4488-b49f-88d907f573e4",
+               "id": "70",
+               "name": "Stratus Red Team",
                "type": "url",
-               "url": "https://github.com/mvelazc0/PurpleSharp"
+               "url": "https://stratus-red-team.cloud/"
             }, {
                "date_added": "13323562846166683",
                "date_last_used": "13323818991737686",
                "guid": "9508566d-566a-423d-8611-526645a4402e",
-               "id": "67",
+               "id": "56",
                "name": "Prelude Detect",
                "type": "url",
                "url": "https://preludesecurity.com/"
@@ -487,7 +495,7 @@
                "date_added": "13323562907679622",
                "date_last_used": "0",
                "guid": "89c754d7-90ef-4678-8d7e-0d2beddc5e79",
-               "id": "68",
+               "id": "57",
                "name": "Security Datasets",
                "type": "url",
                "url": "https://securitydatasets.com/introduction.html"
@@ -495,7 +503,7 @@
                "date_added": "13323562944494654",
                "date_last_used": "0",
                "guid": "a893e922-f21f-4927-9fa7-e3597437240e",
-               "id": "69",
+               "id": "58",
                "name": "Splunk Attack Data",
                "type": "url",
                "url": "https://github.com/splunk/attack_data"
@@ -504,7 +512,7 @@
                   "date_added": "13323563107295884",
                   "date_last_used": "0",
                   "guid": "246cc2fd-e2b6-4049-85b2-aad646c9fc1d",
-                  "id": "72",
+                  "id": "60",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -515,7 +523,7 @@
                   "date_added": "13323563124949095",
                   "date_last_used": "0",
                   "guid": "143d1754-d053-4c10-9025-6ae40af3f1cd",
-                  "id": "73",
+                  "id": "61",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -526,7 +534,7 @@
                   "date_added": "13323563147301125",
                   "date_last_used": "0",
                   "guid": "0fa7e6a3-6d25-4358-87b7-3feab929440d",
-                  "id": "74",
+                  "id": "62",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -537,7 +545,7 @@
                   "date_added": "13323563177440407",
                   "date_last_used": "0",
                   "guid": "b0137666-b10c-48d8-bf8d-377474bd3066",
-                  "id": "75",
+                  "id": "63",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -548,7 +556,7 @@
                   "date_added": "13323563210410265",
                   "date_last_used": "0",
                   "guid": "347bfad0-3a1a-4592-a01e-ba6234d07582",
-                  "id": "76",
+                  "id": "64",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -560,14 +568,14 @@
                "date_last_used": "0",
                "date_modified": "13323563210410265",
                "guid": "17faa058-a5f1-4812-98dc-fcf3a1b6a5c6",
-               "id": "71",
+               "id": "59",
                "name": "Detection Rules",
                "type": "folder"
             }, {
                "date_added": "13323563315587200",
                "date_last_used": "0",
                "guid": "05243e57-460e-4bf0-904d-d38d0140b876",
-               "id": "78",
+               "id": "65",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -577,15 +585,15 @@
             } ],
             "date_added": "13323562824562407",
             "date_last_used": "0",
-            "date_modified": "13323827010717771",
+            "date_modified": "13323923092170247",
             "guid": "d0988577-ee13-40a5-bb37-b7becc2151af",
-            "id": "65",
+            "id": "52",
             "name": "MISC",
             "type": "folder"
          } ],
          "date_added": "13242893379423635",
          "date_last_used": "0",
-         "date_modified": "13323817193379028",
+         "date_modified": "13323922997760726",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",
@@ -597,7 +605,7 @@
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
-         "id": "31",
+         "id": "66",
          "name": "Other bookmarks",
          "type": "folder"
       },
@@ -607,7 +615,7 @@
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
-         "id": "32",
+         "id": "67",
          "name": "Mobile bookmarks",
          "type": "folder"
       }
