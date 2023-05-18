@@ -1,5 +1,5 @@
 {
-   "checksum": "756bd5d33d8f87f6361bf08e75ac79f9",
+   "checksum": "16385faa8cc2a1841a271ae79d3ebccb",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -323,7 +323,7 @@
                "date_added": "13323923024955152",
                "date_last_used": "0",
                "guid": "f91aeb1e-8c57-46a5-a387-4ae8e097a3c5",
-               "id": "69",
+               "id": "38",
                "name": "Threat Simulation Indexes",
                "type": "url",
                "url": "https://github.com/SecurityRiskAdvisors/indexes"
@@ -331,7 +331,7 @@
                "date_added": "13323562282451868",
                "date_last_used": "0",
                "guid": "86577cb4-f85c-4ed9-a1fc-573b9135032b",
-               "id": "38",
+               "id": "39",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -351,7 +351,7 @@
                "date_added": "13243046588104900",
                "date_last_used": "13323393828464242",
                "guid": "3f4c5238-96e6-42b4-8009-1c204fbc285b",
-               "id": "48",
+               "id": "41",
                "name": "CALDERA Server",
                "type": "url",
                "url": "http://art-vm-0:8888/"
@@ -359,7 +359,7 @@
                "date_added": "13246048193903489",
                "date_last_used": "13323562711407800",
                "guid": "8956a597-2cea-4112-aca0-d43ff55f07fd",
-               "id": "49",
+               "id": "42",
                "name": "CALDERA Documentation",
                "type": "url",
                "url": "https://caldera.readthedocs.io/en/latest/"
@@ -367,7 +367,7 @@
                "date_added": "13246084120371359",
                "date_last_used": "13323562715779041",
                "guid": "82fff951-20a2-481b-b73d-690d5a6e9932",
-               "id": "50",
+               "id": "43",
                "name": "CALDERA GitHub",
                "type": "url",
                "url": "https://github.com/mitre/caldera"
@@ -375,7 +375,7 @@
                "date_added": "13323562233147855",
                "date_last_used": "0",
                "guid": "73bf38ea-f6e9-41b0-8006-58511ecdf0ef",
-               "id": "51",
+               "id": "44",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -387,91 +387,23 @@
             "date_last_used": "0",
             "date_modified": "13323562233147855",
             "guid": "bb878d57-7053-478b-86be-66eadceef1da",
-            "id": "47",
+            "id": "40",
             "name": "CALDERA",
-            "type": "folder"
-         }, {
-            "children": [ {
-               "date_added": "13323802856399947",
-               "date_last_used": "13323812332351704",
-               "guid": "763353d8-9cd8-41e1-9888-b2bf989617b9",
-               "id": "40",
-               "name": "Prelude Operator – Purple Team Infrastructure",
-               "type": "url",
-               "url": "https://www.preludesecurity.com/products/operator"
-            }, {
-               "date_added": "13323802881745062",
-               "date_last_used": "13323816835201425",
-               "guid": "3bd31346-3e2a-424d-abf5-675ec7a818fa",
-               "id": "41",
-               "name": "Documentation",
-               "type": "url",
-               "url": "https://docs.preludesecurity.com/v1/docs"
-            }, {
-               "date_added": "13323802946173350",
-               "date_last_used": "13323817068172560",
-               "guid": "cad6fedf-60bf-45b2-9337-76f3a9baf71c",
-               "id": "42",
-               "name": "Prelude Attack Chains",
-               "type": "url",
-               "url": "https://chains.prelude.org/chains"
-            }, {
-               "date_added": "13323804813343674",
-               "date_last_used": "13323816749117535",
-               "guid": "c7b177de-14f0-465d-ace7-ff85679a5dcd",
-               "id": "43",
-               "name": "Community TTP Repository",
-               "type": "url",
-               "url": "https://github.com/preludeorg/community"
-            }, {
-               "date_added": "13323816769615243",
-               "date_last_used": "0",
-               "guid": "a64ebb21-6dd4-4915-b016-0e139c8ed7d5",
-               "id": "44",
-               "name": "Pneuma Agent Source Code",
-               "type": "url",
-               "url": "https://github.com/preludeorg/pneuma"
-            }, {
-               "date_added": "13323816802923954",
-               "date_last_used": "0",
-               "guid": "fce61b7b-a457-4557-a066-b277de2c544f",
-               "id": "45",
-               "name": "Operator Support",
-               "type": "url",
-               "url": "https://github.com/preludeorg/operator-support"
-            }, {
-               "date_added": "13323817184634268",
-               "date_last_used": "13323817203172313",
-               "guid": "44d343e8-c20a-4107-a95c-5a5db9db7b03",
-               "id": "46",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "Discord Invite",
-               "type": "url",
-               "url": "https://discord.com/invite/NWURE99JzE"
-            } ],
-            "date_added": "13323802850901324",
-            "date_last_used": "0",
-            "date_modified": "13323817184634268",
-            "guid": "f03a3005-3a76-4eec-b7c2-3a68a61437ad",
-            "id": "39",
-            "name": "Prelude Operator",
             "type": "folder"
          }, {
             "children": [ {
                "date_added": "13323563395246450",
                "date_last_used": "0",
                "guid": "d8c6133a-e28c-46b4-a951-e48cb09a250e",
-               "id": "53",
+               "id": "54",
                "name": "Antisyphon Training",
                "type": "url",
                "url": "https://www.antisyphontraining.com/on-demand-course-catalog/"
             }, {
                "date_added": "13323827002641437",
-               "date_last_used": "13323919213433200",
+               "date_last_used": "13328856500227813",
                "guid": "3282b98a-490f-4ac3-b469-68177522da1e",
-               "id": "54",
+               "id": "55",
                "name": "Class Files",
                "type": "url",
                "url": "https://github.com/clr2of8/AttackEmulationTools"
@@ -479,7 +411,7 @@
                "date_added": "13323923077644331",
                "date_last_used": "0",
                "guid": "4d24669c-7994-4488-b49f-88d907f573e4",
-               "id": "70",
+               "id": "56",
                "name": "Stratus Red Team",
                "type": "url",
                "url": "https://stratus-red-team.cloud/"
@@ -487,7 +419,7 @@
                "date_added": "13323562846166683",
                "date_last_used": "13323818991737686",
                "guid": "9508566d-566a-423d-8611-526645a4402e",
-               "id": "56",
+               "id": "57",
                "name": "Prelude Detect",
                "type": "url",
                "url": "https://preludesecurity.com/"
@@ -495,7 +427,7 @@
                "date_added": "13323562907679622",
                "date_last_used": "0",
                "guid": "89c754d7-90ef-4678-8d7e-0d2beddc5e79",
-               "id": "57",
+               "id": "58",
                "name": "Security Datasets",
                "type": "url",
                "url": "https://securitydatasets.com/introduction.html"
@@ -503,7 +435,7 @@
                "date_added": "13323562944494654",
                "date_last_used": "0",
                "guid": "a893e922-f21f-4927-9fa7-e3597437240e",
-               "id": "58",
+               "id": "59",
                "name": "Splunk Attack Data",
                "type": "url",
                "url": "https://github.com/splunk/attack_data"
@@ -512,7 +444,7 @@
                   "date_added": "13323563107295884",
                   "date_last_used": "0",
                   "guid": "246cc2fd-e2b6-4049-85b2-aad646c9fc1d",
-                  "id": "60",
+                  "id": "61",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -523,7 +455,7 @@
                   "date_added": "13323563124949095",
                   "date_last_used": "0",
                   "guid": "143d1754-d053-4c10-9025-6ae40af3f1cd",
-                  "id": "61",
+                  "id": "62",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -534,7 +466,7 @@
                   "date_added": "13323563147301125",
                   "date_last_used": "0",
                   "guid": "0fa7e6a3-6d25-4358-87b7-3feab929440d",
-                  "id": "62",
+                  "id": "63",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -545,7 +477,7 @@
                   "date_added": "13323563177440407",
                   "date_last_used": "0",
                   "guid": "b0137666-b10c-48d8-bf8d-377474bd3066",
-                  "id": "63",
+                  "id": "64",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -556,7 +488,7 @@
                   "date_added": "13323563210410265",
                   "date_last_used": "0",
                   "guid": "347bfad0-3a1a-4592-a01e-ba6234d07582",
-                  "id": "64",
+                  "id": "65",
                   "meta_info": {
                      "power_bookmark_meta": ""
                   },
@@ -568,14 +500,14 @@
                "date_last_used": "0",
                "date_modified": "13323563210410265",
                "guid": "17faa058-a5f1-4812-98dc-fcf3a1b6a5c6",
-               "id": "59",
+               "id": "60",
                "name": "Detection Rules",
                "type": "folder"
             }, {
                "date_added": "13323563315587200",
                "date_last_used": "0",
                "guid": "05243e57-460e-4bf0-904d-d38d0140b876",
-               "id": "65",
+               "id": "66",
                "meta_info": {
                   "power_bookmark_meta": ""
                },
@@ -587,7 +519,7 @@
             "date_last_used": "0",
             "date_modified": "13323923092170247",
             "guid": "d0988577-ee13-40a5-bb37-b7becc2151af",
-            "id": "52",
+            "id": "53",
             "name": "MISC",
             "type": "folder"
          } ],
@@ -605,7 +537,7 @@
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
-         "id": "66",
+         "id": "67",
          "name": "Other bookmarks",
          "type": "folder"
       },
@@ -615,7 +547,7 @@
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
-         "id": "67",
+         "id": "68",
          "name": "Mobile bookmarks",
          "type": "folder"
       }
